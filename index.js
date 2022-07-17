@@ -52,7 +52,7 @@ let presupuestoOtorgado = document.getElementById("presupuesto");
 let cantidadDias = document.getElementById("dias");
 
 
-formulario.addEventListener("click", (event) => validarFormulario(event));
+btnEnvio.addEventListener("click", (event) => validarFormulario(event));
 btnCalcular.addEventListener("click", (event) => calculadora(event));
 
 function traslado(kilometros, valor) {
